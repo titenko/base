@@ -1,7 +1,7 @@
 ---
-title: "Graph View"
+title: Graph View
 tags:
-  - component
+- component
 ---
 
 Quartz features a graph-view that can show both a local graph view and a global graph view.
