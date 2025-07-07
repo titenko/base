@@ -1,0 +1,38 @@
+name: Sync Quartz Template
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # каждый час
+  workflow_dispatch:      # запуск вручную
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Add upstream template repo
+        run: |
+          git remote add upstream https://github.com/DefenderOfBasic/obsidian-quartz-template.git
+          git fetch upstream
+
+      - name: Merge upstream into main
+        run: |
+          git checkout main
+          git merge upstream/main --allow-unrelated-histories -X theirs -m "Sync with upstream template"
+
+      - name: Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git main
+
