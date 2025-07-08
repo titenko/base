@@ -83,6 +83,7 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        filter: (page) => page.frontmatter.hidden !== true,
       }),
       Plugin.Assets(),
       Plugin.Static(),

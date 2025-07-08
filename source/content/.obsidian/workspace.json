@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "MacOS/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "MacOS/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "MacOS/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "MacOS/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -179,11 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "2d8837e6263008e3",
   "lastOpenFiles": [
+    "index.md",
+    "MacOS/index.md",
+    "MacOS/Пустой документ",
     "templates/index-old.md",
     "Obsidian/articles/template.md",
-    "index.md",
     "index-old.md",
     "Cross-Platform/articles/template.md",
     "Obsidian/articles",
