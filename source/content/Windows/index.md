@@ -1,5 +1,5 @@
 ---
-title: "Folder: Windows"
+title: "Windows"
 hidden: true
 ---
 

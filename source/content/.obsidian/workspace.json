@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/index.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +181,8 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
-    "MacOS/index.md",
     "Windows/index.md",
+    "MacOS/index.md",
     "index.md",
     "MacOS/Пустой документ",
     "templates/index-old.md",

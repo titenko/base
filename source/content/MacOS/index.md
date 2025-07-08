@@ -1,5 +1,5 @@
 ---
-title: "Folder: MacOS"
+title: MacOS
 hidden: true
 readingTime: false
 created: false
