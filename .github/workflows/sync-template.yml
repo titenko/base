@@ -1,9 +1,9 @@
-name: Sync Quartz Template
+name: Sync Selected Files from Quartz Template
 
 on:
   schedule:
     - cron: '0 * * * *'  # каждый час
-  workflow_dispatch:      # запуск вручную
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -15,24 +15,38 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set up Git
+      - name: Clone upstream repo
+        run: |
+          git clone --depth=1 https://github.com/DefenderOfBasic/obsidian-quartz-template.git upstream-template
+
+      - name: Copy selected files from template (preserving ci.yaml)
+        run: |
+          # Сохраняем ci.yaml временно
+          mkdir -p .github/workflows
+          cp -v .github/workflows/ci.yaml ci.yaml.bak || true
+
+          # Синхронизация (копирование)
+          rsync -av --delete \
+            --exclude '.git' \
+            --exclude 'index.md' \
+            --exclude 'quartz.config.ts' \
+            --exclude '.github/workflows/ci.yaml' \
+            upstream-template/ ./
+
+          # Возвращаем сохранённый ci.yaml
+          mv -v ci.yaml.bak .github/workflows/ci.yaml || true
+
+      - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-      - name: Add upstream template repo
-        run: |
-          git remote add upstream https://github.com/DefenderOfBasic/obsidian-quartz-template.git
-          git fetch upstream
-
-      - name: Merge upstream into main
-        run: |
-          git checkout main
-          git merge upstream/main --allow-unrelated-histories -X theirs -m "Sync with upstream template"
-
-      - name: Push changes
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git main
-
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync selected files from upstream Quartz template (excluding config and ci.yaml)"
+            git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git HEAD:main
+          fi
