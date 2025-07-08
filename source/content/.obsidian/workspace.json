@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Без названия.md",
+                "file": "Windows/soft/WingetUI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "WingetUI"
             }
           }
         ]
@@ -174,14 +174,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "1aec6152446e44db",
   "lastOpenFiles": [
+    "index.md",
+    "templates/Без названия.md",
     "templates/Главная.md",
     "templates/index.md",
     "Главная.md",
-    "templates/Без названия.md",
     "templates",
-    "index.md",
     "Windows/soft/AltAppInstaller.md",
     "conflict-files-obsidian-git.md",
     "category-folder/index.md",
