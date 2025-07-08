@@ -1,8 +1,8 @@
-name: Sync Selected Files from Quartz Template
+name: Sync Selected Quartz Files
 
 on:
   schedule:
-    - cron: '0 * * * *'  # каждый час
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,31 +12,33 @@ jobs:
     steps:
       - name: Checkout your repo
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Clone upstream repo
+      - name: Clone upstream template
         run: |
           git clone --depth=1 https://github.com/DefenderOfBasic/obsidian-quartz-template.git upstream-template
 
-      - name: Copy selected files from template (preserving ci.yaml)
+      - name: Copy only selected safe files
         run: |
-          # Сохраняем ci.yaml временно
-          mkdir -p .github/workflows
+          mkdir -p source/quartz
+          mkdir -p source/styles
+
+          # Сохраняем твой ci.yaml
           cp -v .github/workflows/ci.yaml ci.yaml.bak || true
 
-          # Синхронизация (копирование)
-          rsync -av --delete \
-            --exclude '.git' \
-            --exclude 'index.md' \
-            --exclude 'quartz.config.ts' \
-            --exclude '.github/workflows/ci.yaml' \
-            upstream-template/ ./
+          # Копируем только нужные каталоги
+          rsync -av upstream-template/source/quartz/ source/quartz/ \
+            --exclude 'config.ts' \
+            --exclude 'layout.ts'
 
-          # Возвращаем сохранённый ci.yaml
+          rsync -av upstream-template/source/styles/ source/styles/ || true
+
+          # Можно добавить ещё конкретные копируемые пути
+          # rsync -av upstream-template/package.json ./ || true
+
+          # Возвращаем сохранённый файл
           mv -v ci.yaml.bak .github/workflows/ci.yaml || true
 
-      - name: Commit and push changes
+      - name: Commit and push
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -47,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Sync selected files from upstream Quartz template (excluding config and ci.yaml)"
+            git commit -m "Safely sync selected Quartz files from upstream"
             git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git HEAD:main
           fi
