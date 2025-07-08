@@ -1,6 +1,7 @@
 ---
 title: "MacOS"
 hidden: true
+readingTime: false
 ---
 
 ## 🍏 MacOS
