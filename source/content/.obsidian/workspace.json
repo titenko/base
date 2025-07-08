@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Главная.md",
+                "file": "templates/Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Главная"
+              "title": "Без названия"
             }
           }
         ]
@@ -174,10 +174,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1aec6152446e44db",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "index.md",
+    "templates/Главная.md",
+    "templates/index.md",
     "Главная.md",
+    "templates/Без названия.md",
+    "templates",
+    "index.md",
     "Windows/soft/AltAppInstaller.md",
     "conflict-files-obsidian-git.md",
     "category-folder/index.md",
@@ -216,11 +220,7 @@
     "![[AutoLogonUtil.zip]].md",
     "files/AutoLogonUtil.zip",
     "files/autologon_win.zip",
-    "files/autologon.zip",
     "Obsidian/plugins/remotely-sync.md",
-    "Obsidian/plugins/obsidian-git.md",
-    "MacOS/articles/13 вариантов загрузки Mac для особых случаев.md",
-    "MacOS/soft/PopClip.md",
-    "MacOS/soft/Sensei.md"
+    "Obsidian/plugins/obsidian-git.md"
   ]
 }
