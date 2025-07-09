@@ -2,12 +2,6 @@
 title: MacOS
 hidden: true
 ---
-<style>
-.page-listing {
-  display: none; 
-}
-</style>
-
 <p>2 items under this folder.</p>
 
 <div>

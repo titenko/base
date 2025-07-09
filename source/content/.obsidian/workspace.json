@@ -179,8 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "e881246454af2dda",
   "lastOpenFiles": [
+    "templates/index-macos.md",
+    "templates/index-main.md",
+    "templates/index.md",
+    "templates/index-1.md",
     "Windows/index.md",
     "index.md",
     "MacOS/index.md",
