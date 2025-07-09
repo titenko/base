@@ -110,7 +110,7 @@ description: Добро пожаловать! Здесь вы найдёте с�
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Linux/notes/" class="internal">Заметки</a>
+            <a href="/Linux/notes/" class="internal">🗒️ Заметки</a>
           </h3>
         </div>
         <ul class="tags"></ul>
