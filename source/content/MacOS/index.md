@@ -32,5 +32,4 @@ hidden: true
 </div>
 
 
-### [Статьи](MacOS/articles/)
-### [Софт](MacOS/soft/)
+
