@@ -105,6 +105,17 @@ description: Добро пожаловать! Здесь вы найдёте с�
         <ul class="tags"></ul>
       </div>
     </li>
+    <li class="section-li">
+      <div class="section">
+        <div></div>
+        <div class="desc">
+          <h3>
+            <a href="/Linux/notes/" class="internal">Заметки</a>
+          </h3>
+        </div>
+        <ul class="tags"></ul>
+      </div>
+    </li>
   </ul>
 </div>
 
