@@ -3,7 +3,10 @@ hidden: true
 ---
 <style>
 .page-listing {
-  display: none; 
+ display: none; 
+}
+.article-title {
+ display: none;
 }
 </style>
 
