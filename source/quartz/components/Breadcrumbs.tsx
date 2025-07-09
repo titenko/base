@@ -67,7 +67,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     // Format entry for root element
     const firstEntry = {
     displayName: options.rootName,
-    path: "/base",
+    path: new URL(".", import.meta.url).pathname, // resolves to current folder (i.e. /base/)
     }
     const crumbs: CrumbData[] = [firstEntry]
 
