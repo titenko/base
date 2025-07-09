@@ -2,5 +2,5 @@
 title: MacOS
 hidden: true
 ---
-- 📝 [Статьи](MacOS/articles/)
-- 💻 [Софт](MacOS/soft/)
+### [Статьи](MacOS/articles/)
+### [Софт](MacOS/soft/)
