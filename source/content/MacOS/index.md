@@ -11,7 +11,7 @@ hidden: true
 }
 </style>
 
-<h1>Folder: MacOS/</h1>
+<h1 style="font-size: 1.75rem;">Folder: MacOS/</h1>
 
 <p>2 items under this folder.</p>
 
