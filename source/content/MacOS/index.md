@@ -1,4 +1,5 @@
 ---
+title: MacOS
 hidden: true
 ---
 <style>
@@ -10,7 +11,7 @@ hidden: true
 }
 </style>
 
-<h1 class="article-title">Folder: MacOS/</h1>
+<h1>Folder: MacOS/</h1>
 
 <p>2 items under this folder.</p>
 
