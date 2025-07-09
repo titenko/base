@@ -17,7 +17,6 @@ hidden: true
         <ul class="tags"></ul>
       </div>
     </li>
-
     <li class="section-li">
       <div class="section">
         <div></div>
