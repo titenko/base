@@ -10,25 +10,25 @@ description: Добро пожаловать! Здесь вы найдёте с�
 ---
 ## 🍏 MacOS
 
-- 📝 [Статьи](MacOS/articles/)
-- 💻 [Софт](MacOS/soft/)
+- 📝 [Статьи](base/MacOS/articles/)
+- 💻 [Софт](base/MacOS/soft/)
 ---
 ## 🪟 Windows
 
-- 📝 [Статьи](Windows/articles/)
-- 💻 [Софт](Windows/soft/)
+- 📝 [Статьи](base/Windows/articles/)
+- 💻 [Софт](base/Windows/soft/)
 ---
 ## 🐧 Linux
 
-- 📝 [Статьи](Linux/articles/)
-- 💻 [Софт](Linux/soft/)
+- 📝 [Статьи](base/Linux/articles/)
+- 💻 [Софт](base/Linux/soft/)
 ---
 ## 🔁 Cross-Platform
 
-- 📝 [Статьи](Cross-Platform/articles/)
-- 📦 [Приложения](Cross-Platform/apps/)
+- 📝 [Статьи](base/Cross-Platform/articles/)
+- 📦 [Приложения](base/Cross-Platform/apps/)
 ---
 ## 🧠 Obsidian
 
-- 📝 [Статьи](Obsidian/articles/)
-- 🧩 [Плагины](Obsidian/plugins/)
+- 📝 [Статьи](base/Obsidian/articles/)
+- 🧩 [Плагины](base/Obsidian/plugins/)
