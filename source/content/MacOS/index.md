@@ -9,6 +9,9 @@ hidden: true
 .article-title {
  display: none;
 }
+.popover {
+  display: none;    
+}
 </style>
 
 <h1 style="font-size: 1.75rem; margin: 2rem 0 0;">Folder: MacOS/</h1>
