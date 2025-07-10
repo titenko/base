@@ -1,5 +1,5 @@
 ---
-title: Windows
+title: Linux
 hidden: true
 ---
 <style>
@@ -14,7 +14,7 @@ hidden: true
 }
 </style>
 
-<h1 style="font-size: 1.75rem; margin: 2rem 0 0;">Folder: Windows/</h1>
+<h1 style="font-size: 1.75rem; margin: 2rem 0 0;">Folder: Linux/</h1>
 
 <p>2 items under this folder.</p>
 
@@ -25,7 +25,7 @@ hidden: true
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Windows/articles/" class="internal">Статьи</a>
+            <a href="/Linux/articles/" class="internal">Статьи</a>
           </h3>
         </div>
         <ul class="tags"></ul>
@@ -36,7 +36,7 @@ hidden: true
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Windows/notes/" class="internal">Заметки</a>
+            <a href="/Linux/notes/" class="internal">Заметки</a>
           </h3>
         </div>
         <ul class="tags"></ul>
@@ -47,7 +47,7 @@ hidden: true
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Windows/soft/" class="internal">Софт</a>
+            <a href="/Linux/soft/" class="internal">Софт</a>
           </h3>
         </div>
         <ul class="tags"></ul>

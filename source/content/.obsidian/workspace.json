@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Obsidian/articles/В разработке.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "В разработке"
             }
           }
         ]
@@ -181,25 +181,32 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
+    "Cross-Platform/articles/В разработке.md",
+    "Linux/articles/В разработке.md",
+    "Windows/notes/В разработке.md",
+    "Windows/index.md",
+    "Windows/notes",
+    "index.md",
+    "Linux/soft/В разработке.md",
+    "Linux/index.md",
+    "MacOS/soft/Magnet.md",
+    "MacOS/soft/OpenCore Legacy Patcher.md",
     "MacOS/index.md",
     "MacOS/notes/Основные команды в терминале macOS.md",
     "Linux/notes/Основные команды в терминале Ubuntu.md",
     "MacOS/articles/Ошибки при установке приложений на Мак.md",
     "MacOS/notes",
     "MacOS/articles/Отключение функции Gatekeeper в macOS.md",
-    "index.md",
     "MacOS/articles/13 вариантов загрузки Mac для особых случаев.md",
     "Linux/notes",
     "templates/index-macos.md",
     "templates/index-main.md",
     "templates/index.md",
     "templates/index-1.md",
-    "Windows/index.md",
     "MacOS/Пустой документ",
     "templates/index-old.md",
-    "Obsidian/articles/template.md",
+    "Obsidian/articles/В разработке.md",
     "index-old.md",
-    "Cross-Platform/articles/template.md",
     "Obsidian/articles",
     "Cross-Platform/apps/Ferdium.md",
     "Cross-Platform/articles",
