@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MacOS/index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,9 +181,9 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
+    "MacOS/index.md",
     "Linux/notes/Основные команды в терминале Ubuntu.md",
     "MacOS/articles/13 вариантов загрузки Mac для особых случаев.md",
-    "MacOS/index.md",
     "index.md",
     "Linux/notes",
     "templates/index-macos.md",
