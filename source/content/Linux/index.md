@@ -16,7 +16,7 @@ hidden: true
 
 <h1 style="font-size: 1.75rem; margin: 2rem 0 0;">Folder: Linux/</h1>
 
-<p>2 items under this folder.</p>
+<p>3 items under this folder.</p>
 
 <div>
   <ul class="section-ul">
