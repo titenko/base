@@ -9,6 +9,10 @@ description: Добро пожаловать! Здесь вы найдёте с�
 .popover {
   display: none;    
 }
+.article-title {
+margin: 2rem 0 0;
+font-size: 2rem;
+}
 </style>
 
 
