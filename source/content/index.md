@@ -79,6 +79,17 @@ description: Добро пожаловать! Здесь вы найдёте с�
         <div></div>
         <div class="desc">
           <h3>
+            <a href="/Windows/notes/" class="internal">🗒️ Заметки</a>
+          </h3>
+        </div>
+        <ul class="tags"></ul>
+      </div>
+    </li>
+    <li class="section-li">
+      <div class="section">
+        <div></div>
+        <div class="desc">
+          <h3>
             <a href="/Windows/soft/" class="internal">💻 Софт</a>
           </h3>
         </div>
@@ -110,7 +121,7 @@ description: Добро пожаловать! Здесь вы найдёте с�
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Linux/soft/" class="internal">💻 Софт</a>
+            <a href="/Linux/notes/" class="internal">🗒️ Заметки</a>
           </h3>
         </div>
         <ul class="tags"></ul>
@@ -121,7 +132,7 @@ description: Добро пожаловать! Здесь вы найдёте с�
         <div></div>
         <div class="desc">
           <h3>
-            <a href="/Linux/notes/" class="internal">🗒️ Заметки</a>
+            <a href="/Linux/soft/" class="internal">💻 Софт</a>
           </h3>
         </div>
         <ul class="tags"></ul>
