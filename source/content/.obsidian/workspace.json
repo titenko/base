@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Windows/notes/Windhawk — Настрой Windows под себя.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Windhawk — Настрой Windows под себя"
             }
           }
         ]
@@ -181,6 +181,11 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
+    "Windows/soft/Windhawk.md",
+    "Windows/notes/Windhawk — Настрой Windows под себя.md",
+    "Windows/notes/Папка Загрузки на панели задач.md",
+    "Windows/notes/Как найти и установить недостающие файлы dll в Windows 11.md",
+    "index.md",
     "Windows/notes/Простая установка Windows 11 без Интернета с локальной учётной записью.md",
     "Img/geek.png",
     "Obsidian/articles/В разработке.md",
@@ -188,7 +193,6 @@
     "Linux/articles/В разработке.md",
     "Windows/index.md",
     "Windows/notes",
-    "index.md",
     "Linux/soft/В разработке.md",
     "Linux/index.md",
     "MacOS/soft/Magnet.md",
@@ -209,11 +213,8 @@
     "templates/index-old.md",
     "index-old.md",
     "Obsidian/articles",
-    "Cross-Platform/apps/Ferdium.md",
     "Cross-Platform/articles",
-    "Главная.md",
     "Cross-Platform/apps",
-    "category-folder/index.md",
     "category-folder"
   ]
 }
